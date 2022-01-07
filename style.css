@@ -1,0 +1,91 @@
+html, button, input {
+	font-family: 'Lato', sans-serif;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    ms-user-select: none;
+    user-select: none;
+}
+
+.flex-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+ul {
+	margin: 0.4em 0.2em;
+}
+
+li:hover {
+	color: darkred;
+}
+
+p {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+button, input {
+	border-radius: 0.6em;
+	border:  none;
+	padding: 4px 8px;
+}
+
+button:hover {
+	background-color:  slategray;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+button:active {
+	color:  white;
+}
+
+input {
+	border:  1px solid slategray;
+	margin-right: 0.6em;
+}
+
+h1 {
+	margin: 0;
+	text-decoration: underline;
+	font-weight: 800;
+}
+
+#clear {
+	margin-top: 0.6em;
+}
+
+.wrapper {
+	border: 1px solid slategray;
+	border-radius: 0.6em;
+	width: fit-content;
+	padding: 36px 8vw;
+	background-color: #f5f7fa;
+	margin-top: 0.8em;
+}
+
+#controls {
+	border: 1px solid slategray;
+	border-radius: 0.6em;
+	padding: 16px;
+	width: fit-content;
+	background-color: white;
+}
+
+#msg {
+	font-size: 80%;
+	margin-top: 0.6em;
+}
+
+#msgAct {
+	font-weight: 800;
+}
+
+.scs {
+	color: seagreen;
+}
+
+.err {
+	color:  red;
+}
